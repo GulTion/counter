@@ -1,0 +1,66 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-flow: column nowrap;
+}
+.App .Count{
+  font-weight: 600 !important;
+}
+.App .big{
+font-size: 4em;
+font-weight: 600 !important;
+
+
+color: rgb(255, 255, 255);
+width: 100px;
+height: 100px;
+text-align: center;
+line-height: 1.5;
+border-radius: 50%;
+background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
+box-shadow:  17px 17px 44px #c8c8c8, 
+             -17px -17px 44px #ffffff;
+}
+.App .small{
+  font-size: 2em;
+  margin: 0.5em;
+  font-weight: 600 !important;
+}
+.flexrow{
+  display: flex;
+}
+.right ,.wrong{
+  font-size: 1.5em;
+  padding: 0.25em 0.5em;
+  border: none;
+  margin: 0.5em;
+   border-radius: 100px;
+  transition-duration: 0.5s;
+  font-weight: 600;
+  background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
+box-shadow:  17px 17px 44px #c8c8c8, 
+             -17px -17px 44px #ffffff;
+}
+.right{
+  color:rgb(0, 255, 0);
+  
+}
+.wrong{
+  color: rgb(255, 47, 47);
+}
+.right:hover{
+
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+.wrong:hover{
+  
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
